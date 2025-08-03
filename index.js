@@ -4,9 +4,9 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // URL của API gốc mà bạn muốn treo
-const TARGET_API_URL = 'https://sicbo-789-vannhat-predict.onrender.com/api/789/vannhat';
+const TARGET_API_URL = 'https://sunwin-vip8-vnhat-ohw0.onrender.com/concac/ditme/chungmay';
 
-app.get('/proxy/789', async (req, res) => {
+app.get('/proxy/sunwin', async (req, res) => {
   try {
     // Gửi yêu cầu đến API gốc
     const response = await axios.get(TARGET_API_URL);
